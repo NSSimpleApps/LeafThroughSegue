@@ -16,6 +16,7 @@
 		B5270F681B2602C400F6CA1B /* LeafThroughSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5270F671B2602C400F6CA1B /* LeafThroughSegueTests.m */; };
 		B5270F731B26052D00F6CA1B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5270F721B26052D00F6CA1B /* TableViewController.m */; };
 		B5270F761B2606A800F6CA1B /* LeafThroughSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B5270F751B2606A800F6CA1B /* LeafThroughSegue.m */; };
+		B5A591A41B2C41D400E22428 /* LeafThroughSegue.gif in Resources */ = {isa = PBXBuildFile; fileRef = B5A591A31B2C41D400E22428 /* LeafThroughSegue.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		B5270F721B26052D00F6CA1B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		B5270F741B2606A800F6CA1B /* LeafThroughSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeafThroughSegue.h; sourceTree = "<group>"; };
 		B5270F751B2606A800F6CA1B /* LeafThroughSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeafThroughSegue.m; sourceTree = "<group>"; };
+		B5A591A31B2C41D400E22428 /* LeafThroughSegue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LeafThroughSegue.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		B5270F4A1B2602C400F6CA1B /* LeafThroughSegue */ = {
 			isa = PBXGroup;
 			children = (
+				B5A591A31B2C41D400E22428 /* LeafThroughSegue.gif */,
 				B5270F4F1B2602C400F6CA1B /* AppDelegate.h */,
 				B5270F501B2602C400F6CA1B /* AppDelegate.m */,
 				B5270F741B2606A800F6CA1B /* LeafThroughSegue.h */,
@@ -211,6 +214,7 @@
 			files = (
 				B5270F571B2602C400F6CA1B /* Main.storyboard in Resources */,
 				B5270F5C1B2602C400F6CA1B /* LaunchScreen.xib in Resources */,
+				B5A591A41B2C41D400E22428 /* LeafThroughSegue.gif in Resources */,
 				B5270F591B2602C400F6CA1B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
