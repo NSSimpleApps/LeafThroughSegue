@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LeafThroughSegue.h
 //  LeafThroughSegue
 //
 //  Created by NSSimpleApps on 08.06.15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LeafThroughSegue : UIStoryboardSegue
 
 @end
-

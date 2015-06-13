@@ -14,6 +14,8 @@
 		B5270F591B2602C400F6CA1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5270F581B2602C400F6CA1B /* Images.xcassets */; };
 		B5270F5C1B2602C400F6CA1B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5270F5A1B2602C400F6CA1B /* LaunchScreen.xib */; };
 		B5270F681B2602C400F6CA1B /* LeafThroughSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5270F671B2602C400F6CA1B /* LeafThroughSegueTests.m */; };
+		B5270F731B26052D00F6CA1B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5270F721B26052D00F6CA1B /* TableViewController.m */; };
+		B5270F761B2606A800F6CA1B /* LeafThroughSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B5270F751B2606A800F6CA1B /* LeafThroughSegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		B5270F611B2602C400F6CA1B /* LeafThroughSegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeafThroughSegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5270F661B2602C400F6CA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5270F671B2602C400F6CA1B /* LeafThroughSegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeafThroughSegueTests.m; sourceTree = "<group>"; };
+		B5270F711B26052D00F6CA1B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		B5270F721B26052D00F6CA1B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		B5270F741B2606A800F6CA1B /* LeafThroughSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeafThroughSegue.h; sourceTree = "<group>"; };
+		B5270F751B2606A800F6CA1B /* LeafThroughSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeafThroughSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 			children = (
 				B5270F4F1B2602C400F6CA1B /* AppDelegate.h */,
 				B5270F501B2602C400F6CA1B /* AppDelegate.m */,
+				B5270F741B2606A800F6CA1B /* LeafThroughSegue.h */,
+				B5270F751B2606A800F6CA1B /* LeafThroughSegue.m */,
+				B5270F711B26052D00F6CA1B /* TableViewController.h */,
+				B5270F721B26052D00F6CA1B /* TableViewController.m */,
 				B5270F521B2602C400F6CA1B /* ViewController.h */,
 				B5270F531B2602C400F6CA1B /* ViewController.m */,
 				B5270F551B2602C400F6CA1B /* Main.storyboard */,
@@ -221,7 +231,9 @@
 			files = (
 				B5270F541B2602C400F6CA1B /* ViewController.m in Sources */,
 				B5270F511B2602C400F6CA1B /* AppDelegate.m in Sources */,
+				B5270F761B2606A800F6CA1B /* LeafThroughSegue.m in Sources */,
 				B5270F4E1B2602C400F6CA1B /* main.m in Sources */,
+				B5270F731B26052D00F6CA1B /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 				B5270F6D1B2602C400F6CA1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5270F6E1B2602C400F6CA1B /* Build configuration list for PBXNativeTarget "LeafThroughSegueTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				B5270F701B2602C400F6CA1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
