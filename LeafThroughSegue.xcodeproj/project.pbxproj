@@ -13,21 +13,10 @@
 		B5270F571B2602C400F6CA1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5270F551B2602C400F6CA1B /* Main.storyboard */; };
 		B5270F591B2602C400F6CA1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5270F581B2602C400F6CA1B /* Images.xcassets */; };
 		B5270F5C1B2602C400F6CA1B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5270F5A1B2602C400F6CA1B /* LaunchScreen.xib */; };
-		B5270F681B2602C400F6CA1B /* LeafThroughSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5270F671B2602C400F6CA1B /* LeafThroughSegueTests.m */; };
 		B5270F731B26052D00F6CA1B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5270F721B26052D00F6CA1B /* TableViewController.m */; };
 		B5270F761B2606A800F6CA1B /* LeafThroughSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B5270F751B2606A800F6CA1B /* LeafThroughSegue.m */; };
 		B5A591A41B2C41D400E22428 /* LeafThroughSegue.gif in Resources */ = {isa = PBXBuildFile; fileRef = B5A591A31B2C41D400E22428 /* LeafThroughSegue.gif */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B5270F621B2602C400F6CA1B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B5270F401B2602C400F6CA1B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B5270F471B2602C400F6CA1B;
-			remoteInfo = LeafThroughSegue;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B5270F481B2602C400F6CA1B /* LeafThroughSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeafThroughSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,9 +29,6 @@
 		B5270F561B2602C400F6CA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5270F581B2602C400F6CA1B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5270F5B1B2602C400F6CA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B5270F611B2602C400F6CA1B /* LeafThroughSegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeafThroughSegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5270F661B2602C400F6CA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5270F671B2602C400F6CA1B /* LeafThroughSegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeafThroughSegueTests.m; sourceTree = "<group>"; };
 		B5270F711B26052D00F6CA1B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		B5270F721B26052D00F6CA1B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		B5270F741B2606A800F6CA1B /* LeafThroughSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeafThroughSegue.h; sourceTree = "<group>"; };
@@ -58,13 +44,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5270F5E1B2602C400F6CA1B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -72,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				B5270F4A1B2602C400F6CA1B /* LeafThroughSegue */,
-				B5270F641B2602C400F6CA1B /* LeafThroughSegueTests */,
 				B5270F491B2602C400F6CA1B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				B5270F481B2602C400F6CA1B /* LeafThroughSegue.app */,
-				B5270F611B2602C400F6CA1B /* LeafThroughSegueTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,23 +92,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B5270F641B2602C400F6CA1B /* LeafThroughSegueTests */ = {
-			isa = PBXGroup;
-			children = (
-				B5270F671B2602C400F6CA1B /* LeafThroughSegueTests.m */,
-				B5270F651B2602C400F6CA1B /* Supporting Files */,
-			);
-			path = LeafThroughSegueTests;
-			sourceTree = "<group>";
-		};
-		B5270F651B2602C400F6CA1B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B5270F661B2602C400F6CA1B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,39 +112,17 @@
 			productReference = B5270F481B2602C400F6CA1B /* LeafThroughSegue.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5270F601B2602C400F6CA1B /* LeafThroughSegueTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B5270F6E1B2602C400F6CA1B /* Build configuration list for PBXNativeTarget "LeafThroughSegueTests" */;
-			buildPhases = (
-				B5270F5D1B2602C400F6CA1B /* Sources */,
-				B5270F5E1B2602C400F6CA1B /* Frameworks */,
-				B5270F5F1B2602C400F6CA1B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B5270F631B2602C400F6CA1B /* PBXTargetDependency */,
-			);
-			name = LeafThroughSegueTests;
-			productName = LeafThroughSegueTests;
-			productReference = B5270F611B2602C400F6CA1B /* LeafThroughSegueTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B5270F401B2602C400F6CA1B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = NSSimpleApps;
 				TargetAttributes = {
 					B5270F471B2602C400F6CA1B = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					B5270F601B2602C400F6CA1B = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = B5270F471B2602C400F6CA1B;
 					};
 				};
 			};
@@ -202,7 +140,6 @@
 			projectRoot = "";
 			targets = (
 				B5270F471B2602C400F6CA1B /* LeafThroughSegue */,
-				B5270F601B2602C400F6CA1B /* LeafThroughSegueTests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +153,6 @@
 				B5270F5C1B2602C400F6CA1B /* LaunchScreen.xib in Resources */,
 				B5A591A41B2C41D400E22428 /* LeafThroughSegue.gif in Resources */,
 				B5270F591B2602C400F6CA1B /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5270F5F1B2602C400F6CA1B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,23 +171,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5270F5D1B2602C400F6CA1B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5270F681B2602C400F6CA1B /* LeafThroughSegueTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B5270F631B2602C400F6CA1B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B5270F471B2602C400F6CA1B /* LeafThroughSegue */;
-			targetProxy = B5270F621B2602C400F6CA1B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B5270F551B2602C400F6CA1B /* Main.storyboard */ = {
@@ -300,6 +214,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -315,7 +230,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -353,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -366,7 +281,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LeafThroughSegue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSSimpleApps.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -376,42 +293,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LeafThroughSegue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSSimpleApps.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B5270F6F1B2602C400F6CA1B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LeafThroughSegueTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeafThroughSegue.app/LeafThroughSegue";
-			};
-			name = Debug;
-		};
-		B5270F701B2602C400F6CA1B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LeafThroughSegueTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeafThroughSegue.app/LeafThroughSegue";
 			};
 			name = Release;
 		};
@@ -432,15 +317,6 @@
 			buildConfigurations = (
 				B5270F6C1B2602C400F6CA1B /* Debug */,
 				B5270F6D1B2602C400F6CA1B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B5270F6E1B2602C400F6CA1B /* Build configuration list for PBXNativeTarget "LeafThroughSegueTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B5270F6F1B2602C400F6CA1B /* Debug */,
-				B5270F701B2602C400F6CA1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
