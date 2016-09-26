@@ -8,6 +8,10 @@
 
 #import "LeafThroughSegue.h"
 
+@interface LeafThroughSegue() <CAAnimationDelegate>
+
+@end
+
 @implementation LeafThroughSegue
 
 - (void)perform {
@@ -20,7 +24,6 @@
     animation.delegate = self;
     animation.duration = 0.7;
     animation.timingFunction = UIViewAnimationCurveEaseInOut;
-    
     animation.type = @"pageCurl";
     animation.subtype = kCATransitionFromRight;
     animation.fillMode = kCAFillModeBackwards;
